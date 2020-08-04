@@ -11,3 +11,4 @@ RUN pip3 install -r requirements.txt
 RUN ln -s /usr/bin/pip3 /usr/local/bin/pip
 RUN bash scripts/install_fairseq.sh y
 RUN bash scripts/install_sentencepiece.sh
+RUN chmod 755 scripts/*.sh
